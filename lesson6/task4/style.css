@@ -1,26 +1,20 @@
-a[target='_blank'] {
-  color: green;
+.already-learned > ol {
+  background-color: green;
+  color: white;
 }
-ul,
-ol {
-  background-color: yellow;
+.to-be-learned > ol {
+  background-color: orange;
+  color: white;
 }
-footer,
-header {
-  border: 3px dashed blue;
+.already-learned code {
+  background-color: orange;
 }
-h1,
-h2,
-h3,
-h4 {
-  margin-left: 20px;
+.to-be-learned code {
+  background-color: green;
 }
-article.new {
+#special2 ~ li {
   font-size: 24px;
 }
-li.new {
-  background-color: red;
-}
-.new.posted-today {
-  background-color: pink;
+h4 > code {
+  border: 2px solid blue;
 }
