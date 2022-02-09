@@ -1,9 +1,12 @@
-body {
+* {
+  background-color: green;
+}
+li {
   font-size: 24px;
 }
-p {
-   color: green;
+.page-header {
+  background-color: orange;
 }
-ul {
-  color: orange;
+#best {
+  border: 2px solid red;
 }
