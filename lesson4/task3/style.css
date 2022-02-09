@@ -1,0 +1,21 @@
+header {
+  height: 100px;
+  background-color: red;
+}
+h1 {
+  color: white;
+  font-size: 24px;
+}
+main {
+  background-color: blue;
+  font-size: 18px;
+  color: white;
+  height: 300px;
+}
+
+footer {
+  background-color: green;
+  height: 100px;
+  font-size: 18px;
+  color: white;
+}
