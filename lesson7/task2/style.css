@@ -1,12 +1,19 @@
-[data-description='anchors'] {
-  background-color: grey;
+li{
+	margin-bottom:16px;
 }
-[data-description] {
-  font-size: 24px;
+li:first-child>span{
+background-color:red;
+	color:white;
 }
-a[target][href] {
-  color: green;
+li:last-child>span{
+background-color:black;
+	color:white;
+
 }
-input[type='text'] {
-  background-color: orange;
+li:nth-child(even)>span{
+	margin-left:16px;
+	}
+.paragraphs:nth-child(odd)>p	{
+background-color:grey;
+
 }
