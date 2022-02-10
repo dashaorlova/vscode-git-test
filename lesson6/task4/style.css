@@ -15,6 +15,6 @@
 #special2 ~ li {
   font-size: 24px;
 }
-#special2 > h4 + li + code {
+#special1 + li > h4 > code {
   border: 2px solid blue;
 }
