@@ -1,26 +1,39 @@
-a[target='_blank'] {
-  color: green;
+body{
+	background-color:#bdc3c7;
 }
-ul,
-ol {
-  background-color: yellow;
+
+h1{
+		color:#9b59b6;
 }
-footer,
-header {
-  border: 3px dashed blue;
+h2{
+		color:orange;
 }
-h1,
-h2,
-h3,
-h4 {
-  margin-left: 20px;
+
+li{
+color:blue;
 }
-article.new {
-  font-size: 24px;
+
+p{
+	background-color:yellow;
 }
-li.new {
-  background-color: red;
+
+input{
+border:3px solid red;
+
 }
-.new.posted-today {
-  background-color: pink;
+.hello{
+	background-color:white;
+
 }
+.special{
+border:2px solid blue;
+
+}
+div > p{
+font-size:25px;
+
+}
+input[type="text"]{background-color:gray;}
+body>div:nth-of-type(3)>p{	background-color:yellow;}
+body > div:nth-of-type(3) > p:nth-of-type(2)  {	border:5px solid white;}
+div:nth-of-type(3) >p>em{	font-size:20px;}
