@@ -9,11 +9,12 @@ height:50px;
 border-radius :16px;
 margin-bottom:50px;
 margin-left:50px;
+margin-top:50px;
 }
 .two{background-color:darkmagenta;
 width:100px;
 height:50px;
-border-radius :30px;
+border-radius :50%;
 margin-bottom:50px;
 margin-left:50px;
 }
