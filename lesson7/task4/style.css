@@ -1,26 +1,16 @@
-a[target='_blank'] {
+input:checked {
+  margin-left: 50px;
+}
+label {
+  text-transform: uppercase;
+}
+#special::first-letter {
   color: green;
+  font-size: 100px;
 }
-ul,
-ol {
-  background-color: yellow;
+h1:hover {
+  color: blue;
 }
-footer,
-header {
-  border: 3px dashed blue;
-}
-h1,
-h2,
-h3,
-h4 {
-  margin-left: 20px;
-}
-article.new {
-  font-size: 24px;
-}
-li.new {
-  background-color: red;
-}
-.new.posted-today {
-  background-color: pink;
+a:visited {
+  color: gray;
 }
