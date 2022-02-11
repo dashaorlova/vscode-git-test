@@ -1,13 +1,20 @@
-.super-important.highlighted {
-  background-color: red;
+.theory::first-letter {
+  font-size: 36px;
+  margin-left: 16px;
+  color: orange;
 }
-.highlighted,
-.company-data {
-  color: yellow;
-}
-li.user-data {
+.theory::first-line {
   font-size: 24px;
 }
-span.user-data {
-  font-size: 10px;
+.theory::selection {
+  color: white;
+  background-color: red;
+}
+a::after {
+  color: green;
+  content: '>';
+}
+a::before {
+  color: green;
+  content: '<';
 }
