@@ -1,1 +1,21 @@
 
+*{
+	box-sizing:border-box;
+}
+div{
+margin:50px 100px;
+padding: 20px;
+	background-color:bisque;
+	box-sizing:	content-box;
+width:420px;
+height:140px;
+border-width:10px 20px;
+border-top-color:firebrick;
+border-top-style:solid;
+border-right-color:chartreuse;
+border-right-style:solid;
+border-bottom-color:burlywood;
+border-bottom-style:dashed;
+border-left-style:dashed;
+border-left-color:aqua;
+}
