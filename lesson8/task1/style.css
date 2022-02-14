@@ -2,10 +2,10 @@
 div{float:left;
 height:200px;
 width:20%}
-.blok_red{
+.block_red{
 background-color:red;}
-.blok_green{
+.block_green{
 background-color:green;}
-.blok_blue{background-color:blue;}
-.blok_yellow{background-color:yellow;}
-.blok_black{background-color:black;}
+.block_blue{background-color:blue;}
+.block_yellow{background-color:yellow;}
+.block_black{background-color:black;}
