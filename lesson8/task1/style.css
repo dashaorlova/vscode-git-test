@@ -1,22 +1,11 @@
 *{box-sizing: border-box;}
-      .square {
-        width: 100px;
-        height: 100px;
-      }
-
-      section {
-        background: aquamarine;
-        padding: 16px;
-		width:50%;
-		float: left;
-      }
-
-      footer {
-        height: 30px;
-        border: 2px solid black;
-		clear:both;
-      }
-.red{float:right;
-background:red}
-.green{float:left;
-background:green}
+div{float:right;
+height:200px;
+width:20%}
+.blok_red{
+background-color:red;}
+.blok_green{
+background-color:green;}
+.blok_blue{background-color:blue;}
+.blok_yellow{background-color:yellow;}
+.blok_black{background-color:black;}
