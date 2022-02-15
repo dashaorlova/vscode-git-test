@@ -2,18 +2,17 @@
 	box-sizing:border-box;
 }
 
-header{
-	display:flex;
-	justify-content: center;
-}
-.article{
-	margin:8px;
-	padding:16px;
-	background-color:bisque;
-	flex-basis:300px;
-	flex-grow: 1;
-}
-main{
-	flex-wrap: wrap;
-		display:flex;
-}
+      div > div {
+        width: 100px;
+        height: 100px;
+        background: coral;
+      }
+	    div  div:nth-child(1){
+		  display:none;
+	  }
+	  	    div  div:nth-child(2){
+		  visibility:hidden;
+	  }
+	  	  	    div  div:nth-child(3){
+		  visibility:visible;
+	  }
