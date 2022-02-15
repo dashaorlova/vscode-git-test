@@ -12,13 +12,14 @@ ul, li{
 	opacity:0.8;
 	font-size:16px;
 	color:white;
-	cursor:point;
+
 	display: inline-block;
 }
 .menu-button:hover{	opacity:1;}
 
 .dropdown{
 	margin:16px;
+	cursor: pointer;
 }
 
 .menu-list{
