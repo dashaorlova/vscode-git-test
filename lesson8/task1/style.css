@@ -1,18 +1,30 @@
-*{box-sizing: border-box;}
-header{height:50px;
-background-color:yellow;}
-footer{height:50px;
-background-color:green;
-clear:both;}
-main{
-	width:80%;
-	background-color:pink;
-float:left;
-	height:500px;}
 
-.sidebar{
-	width:20%;
-	background-color: gray;
-	height:500px;
-float:right;
+      html {
+        font-size: 24px;
+      }
+
+      div {
+        margin: 16px;
+        border: 1px solid burlywood;
+      }
+
+      .horizontal > span {
+        background-color: aqua;
+      }
+      .vertical > span {
+        background-color: coral;
+      }
+
+.horizontal{
+	height:50px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.vertical{
+	height:200px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction:column;
 }
