@@ -8,20 +8,22 @@ body{
 }
 h1{
 	word-spacing:20px;
-	text-align:centre;
-	text-transform:uppercase;
+	text-align: center;
+	text-transform: uppercase;
 }
 p{line-height:28px;
 	
 }
-.world{font-weight:900;
-letter-spacing:3px;
-font-size:24px;
-opacity:0.8;
-text-decoration:underline;
-	
+.world{
+	font-weight:900;
+	letter-spacing:3px;
+	font-size:24px;
+	opacity:0.8;
+	text-decoration:underline;
 }
 .world_translate{
 	color:grey;
 }
-a{text-decoration:none;}
+a{
+	text-decoration:none;
+}
