@@ -1,28 +1,25 @@
 * {
   box-sizing: border-box;
 }
-.square {
-  width: 100px;
-  height: 100px;
+body {
+  font-family: Verdana;
 }
-
-section {
-  background: aquamarine;
-  padding: 16px;
-  width: 50%;
-  float: left;
+header {
+  font-size: 74px;
 }
-
-footer {
-  height: 30px;
-  border: 2px solid black;
-  clear: both;
+h1 {
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 50vw;
+  margin: 0 auto;
+  text-overflow: ellipsis;
 }
-.red {
-  float: right;
-  background: red;
-}
-.green {
-  float: left;
-  background: green;
+div {
+  height: 200px;
+  background-color: coral;
+  color: white;
+  text-align: center;
+  line-height: 200px;
+  text-transform: uppercase;
 }
