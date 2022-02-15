@@ -1,11 +1,27 @@
 *{
 	box-sizing:border-box;
 }
-.gallery{
-	display:flex;
-	overflow-x:auto;
-	cursor:all-scroll;
+body{
+	margin:32px;
+	font-family: Roboto, sans-serif;
+	font-size:18px;
 }
-.thumb{
-	margin:8px;
+h1{
+	word-spacing:20px;
+	text-align:centre;
+	text-transform:uppercase;
 }
+p{line-height:28px;
+	
+}
+.world{font-weight:900;
+letter-spacing:3px;
+font-size:24px;
+opacity:0.8;
+text-decoration:underline;
+	
+}
+.world_translate{
+	color:grey;
+}
+a{text-decoration:none;}
