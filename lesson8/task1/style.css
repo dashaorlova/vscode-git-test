@@ -1,26 +1,40 @@
 *{
 	box-sizing:border-box;
 }
-
-.articles{
-	display:flex;
+ul, li{
+	padding:0;
+	margin:0; 
+	list-style-type: none;
 }
-	.articles div{
-	height:100px;
-	width:150px;
-	background-color:beige;
+.menu-button{
+	padding:16px;
+	background-color:darkgreen;
+	opacity:0.8;
+	font-size:16px;
+	color:white;
+	cursor:point;
+	display: inline-block;
+}
+.menu-button:hover{	opacity:1;}
+
+.dropdown{
 	margin:16px;
 }
-.visible-text{
-	
+
+.menu-list{
+	background-color:lightcyan;
+	color:black;
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+	width:120px;
+	z-index:1;
+	display: none;
 }
-.cropped{overflow:hidden;
-	
+.menu-item{
+	padding: 16px;
 }
-.both-scrolls{overflow:scroll;
-cursor:all-scroll;
-	
+.menu-list:hover{
+	background-color:ghostwhite;
 }
-.vertical-scroll{overflow-y:scroll;
-	cursor:all-scroll;
-}
+
+.dropdown:hover .menu-list{
+display: block;}
