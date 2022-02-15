@@ -2,17 +2,25 @@
 	box-sizing:border-box;
 }
 
-      div > div {
-        width: 100px;
-        height: 100px;
-        background: coral;
-      }
-	    div  div:nth-child(1){
-		  display:none;
-	  }
-	  	    div  div:nth-child(2){
-		  visibility:hidden;
-	  }
-	  	  	    div  div:nth-child(3){
-		  visibility:visible;
-	  }
+.articles{
+	display:flex;
+}
+	.articles div{
+	height:100px;
+	width:150px;
+	background-color:beige;
+	margin:16px;
+}
+.visible-text{
+	
+}
+.cropped{overflow:hidden;
+	
+}
+.both-scrolls{overflow:scroll;
+cursor:all-scroll;
+	
+}
+.vertical-scroll{overflow-y:scroll;
+	cursor:all-scroll;
+}
