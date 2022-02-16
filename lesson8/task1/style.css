@@ -1,40 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Специфичность</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
-      crossorigin="anonymous"
-    />
-	        <link href="style.css" rel="stylesheet">
-  </head>
+*{
+	box-sizing:border-box;
+}
+.image-conteiner{
+	margin:50px 0;
+	display:block;
+	max-width:100%;
+	text-align:center;
+	
+}
 
-  <body>
-    <div class="image-conteiner">
-	<img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="tree">
-	</div>
- <div class="gallery">	
- <figure class="card"> 
- 	<img class="cardone" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="ocen">
- <figcaption> 
- kfjsofhs
- </figcaption>
- </figure>
-  <figure class="card"> 
- 	<img class="cardtwo" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="ocen">
- <figcaption> 
- kfjsofhs
- </figcaption>
- </figure>
-   <figure class="card"> 
- 	<img class="cardtrhee" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="ocen">
- <figcaption> 
- kfjsofhs
- </figcaption>
- </figure>
- </div>
-  </body>
-</html>
+
+.image-conteiner img{
+	border-radius: 20px;
+	
+}
+.gallery{display:flex;
+}
+.card{box-shadow: 0px 7px 18px -8px rgba(0,0,0,0.75);}
+figcaption{
+	text-align:center;
+	line-height:30px;
+	
+}
+.cardone{filter: opacity(50%);}
+.cardtwo{filter: blur(4px);}
+.cardtrhee{filter: invert(100%);}
