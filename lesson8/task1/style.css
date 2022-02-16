@@ -1,12 +1,19 @@
 *{
 	box-sizing:border-box;
-	margin:0;
+
 	padding:0;
 }
 
-body{
+.gallery{
 
-background-image:url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg);
-background-image:repeat;
+display:flex;
 }
-
+.image{
+	width:200px;
+	height:200px;
+	margin:16px;
+	border:1px dotted grey;
+	background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
