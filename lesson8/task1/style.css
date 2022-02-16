@@ -1,18 +1,12 @@
 *{
 	box-sizing:border-box;
 	margin:0;
+	padding:0;
 }
 
-.header-text{
-padding:16px;
-font-family:Arial;
-font-weight:700;
-font-size:96px;
-background:linear-gradient(45deg, yellow, red);
-text-transform: uppercase;
-margin:0;
-text-align:center;
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
+body{
+
+background-image:url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg);
+background-image:repeat;
 }
 
