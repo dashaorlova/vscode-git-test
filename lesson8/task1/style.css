@@ -1,17 +1,27 @@
 *{
 	box-sizing:border-box;
-
+}
+.image-conteiner{
+	margin:20px 0;
+	display:block;
+	max-width:100%;
+	text-align:center;
+	
 }
 
 
-      div.rectangle {
-        background-color: blueviolet;
-        width: 100px;
-        height: 100px;
-      }
-
- 
-      p.text::first-letter {
-        color: green;
-		font-size: 24px;  
-      }
+img .image-conteiner{
+	border-radius:20px;
+	
+}
+.gallery{display:flex;
+}
+.card{box-shadow: 0px 7px 18px -8px rgba(0,0,0,0.75);}
+figcaption{
+	text-align:center;
+	line-height:30px;
+	
+}
+.cardone{filter: opacity(50%);}
+.cardtwo{filter: blur(4px);}
+.cardtrhee{filter: invert(100%);}
