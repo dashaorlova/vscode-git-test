@@ -2,48 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Специфичность</title>
+    <title>Images</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
-    <link href="style.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="image-conteiner">
-      <img
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
-        alt="tree"
-      />
-    </div>
-    <div class="gallery">
-      <figure class="card">
-        <img
-          class="cardone"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="ocen"
-        />
-        <figcaption>opacity</figcaption>
-      </figure>
-      <figure class="card">
-        <img
-          class="cardtwo"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="ocen"
-        />
-        <figcaption>blue</figcaption>
-      </figure>
-      <figure class="card">
-        <img
-          class="cardtrhee"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="ocen"
-        />
-        <figcaption>invert</figcaption>
-      </figure>
-    </div>
+	<div>
+		<input type="text" name="lastName" value="Emerson">
+	</div>
+	<div>
+		<input type="number" name="age" value="17">
+	</div>
+	<div>
+
+		<input id="last-name" type="checkbox" name="agree" value="Accept terms and conditions">
+		<label for="last-name">Accept terms and conditions</label>
+	</div>
+	<div>
+		<input type="radio" id="gendar-mail" name="gendar" checked><label for="gendar-mail">Mail</label>
+		<input type="radio" id="gendar-femail" name="gendar"><label for="gendar-femail">Femail</label>
+		<input type="radio" id="gendar-secret" name="gendar"><label for="gendar-secret">Secret</label>
+	</div>
+	<div>
+	<textarea name="description"
+   placeholder="Write description..."></textarea>
+
+	</div>
+	<div><button type="submit" >Submit</button></div>
   </body>
 </html>
