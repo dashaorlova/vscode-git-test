@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-.image-conteiner img {
+.image-container img {
   border-radius: 20px;
   display: block;
   max-width: 100%;
