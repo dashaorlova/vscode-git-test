@@ -2,17 +2,14 @@
 	box-sizing:border-box;
 }
 .image-conteiner{
-	margin:50px 0;
-	display:block;
-	max-width:100%;
-	text-align:center;
-	
 }
-
 
 .image-conteiner img{
 	border-radius: 20px;
-	
+	margin:50px auto;
+	display:block;
+	max-width:100%;
+		
 }
 .gallery{display:flex;
 }
