@@ -1,9 +1,7 @@
 * {
   box-sizing: border-box;
 }
-body {
-  margin: 16px;
-}
+
 input[type='checkbox'] {
   visibility: hidden;
   width: 0;
@@ -13,6 +11,8 @@ input[type='checkbox'] {
   padding-left: 35px;
   font-size: 24px;
   position: relative;
+  display: block;
+  margin: 16px;
 }
 .checkmark {
   width: 25px;
