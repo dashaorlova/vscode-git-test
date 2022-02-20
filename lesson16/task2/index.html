@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Text aligning</title>
+    <title>Images</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -13,9 +13,59 @@
   </head>
 
   <body>
-    <header>
-      <h1>Some very long header. Really to long for this page</h1>
-    </header>
-    <div>Center is here</div>
+    <form>
+      <div>
+        <label for="lastName">Last Name</label>
+        <input
+          id="lastName"
+          type="text"
+          name="lastName"
+          value="Emerson"
+          readonly
+        />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input id="age" type="number" name="age" value="17" min="3" max="10" />
+      </div>
+      <div>
+        <input
+          id="last-name"
+          type="checkbox"
+          name="agree"
+          value="Accept terms and conditions"
+          disabled
+        />
+        <label for="last-name">Accept terms and conditions</label>
+      </div>
+      <div class="choose-gender">
+        <input id="male" type="radio" name="gender" value="male" checked />
+        <label for="male">Male</label>
+
+        <input
+          id="gendar-femail"
+          type="radio"
+          name="gender"
+          value="gendar-femail"
+        />
+        <label for="gendar-femail">Female</label>
+
+        <input
+          id="gendar-secret"
+          type="radio"
+          name="gender"
+          value="gendar-secret"
+        />
+        <label for="gendar-secret">Secret</label>
+      </div>
+      <div>
+        <textarea
+          name="description"
+          placeholder="Write description..."
+          maxlength="10"
+        ></textarea>
+      </div>
+      <div><button type="submit">Submit</button></div>
+    </form>
   </body>
 </html>

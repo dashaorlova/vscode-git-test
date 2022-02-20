@@ -1,24 +1,6 @@
 * {
   box-sizing: border-box;
 }
-body {
-  font-family: Verdana;
-}
-
-h1 {
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 50vw;
-  margin: 0 auto;
-  text-overflow: ellipsis;
-  font-size: 74px;
-}
 div {
-  height: 200px;
-  background-color: coral;
-  color: white;
-  text-align: center;
-  line-height: 200px;
-  text-transform: uppercase;
+  margin: 16px;
 }
