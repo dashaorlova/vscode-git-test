@@ -2,48 +2,182 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Специфичность</title>
+    <title>Forms</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
+
     <link href="style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <div class="image-conteiner">
-      <img
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
-        alt="tree"
-      />
-    </div>
-    <div class="gallery">
-      <figure class="card">
-        <img
-          class="cardone"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="ocen"
-        />
-        <figcaption>opacity</figcaption>
-      </figure>
-      <figure class="card">
-        <img
-          class="cardtwo"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="ocen"
-        />
-        <figcaption>blue</figcaption>
-      </figure>
-      <figure class="card">
-        <img
-          class="cardtrhee"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="ocen"
-        />
-        <figcaption>invert</figcaption>
-      </figure>
-    </div>
+      <form class="login-form">
+        <div class="form-control">
+          <input
+            type="text"
+            id="primaryLanguage"
+            name="primaryLanguage"
+            placeholder="HTML"
+            disabled
+          />
+        </div>
+		<div class="form-checkbox">
+          <input
+            type="checkbox"
+            name="argee"
+            disabled
+          />
+        </div>
+		<div class="form-like">
+          <input
+            class="form-checkbox"
+            type="checkbox"
+            name="like"
+			redonly
+          />
+        </div>
+		<div class="form-color">
+          <input
+            class="form-checkbox"
+            type="color"
+            name="favouriteColor"
+            value="#ff7f50"
+
+          />
+        </div>		
+		<div class="form-date">
+          <input
+            class="form-date"
+            type="date"
+            name="birthDate"
+			placeholder="2021-01-02"
+
+          />
+        </div>		
+		<div class="form-datetime">
+          <input
+            class="form-datetime"
+            type="datetime-local"
+            name="birthTime"
+			placeholder="2024-10-04T13:02"
+
+          />
+        </div>		
+		<div class="form-email">
+          <input
+            class="form-email"
+            type="email"
+            name="email"
+			placeholder="example@domain.com"
+
+          />
+        </div>
+		<div class="form-file">
+          <input
+            class="form-file"
+            type="file"
+            name="avatar"
+          />
+        </div>
+		<div class="form-mounth">
+          <input
+            class="form-mounth"
+            type="mounth"
+            name="starLearning"
+			placeholder="2020-01"
+
+          />
+        </div>
+		<div class="form-number">
+          <input
+            class="form-number"
+            type="number"
+            name="favouriteNumber"
+			placeholder="17"
+
+          />
+        </div>
+		<div class="form-number">
+          <textarea
+            class="form-number"
+            type="number"
+            name="story"
+			placeholder="A long time ago..."
+
+          ></textarea>
+        </div>
+		<div class="form-password">
+         <input
+            class="password"
+            type="password"
+            name="password"
+			placeholder="secret"
+		/>
+        </div>
+		<div class="languages">
+		 <input
+            class="password"
+            type="checkbox"
+            name="language"
+		/><label>HTML</label>
+		<input
+            class="password"
+            type="checkbox"
+            name="language"
+		/><label>CSS</label>
+		<input
+            class="password"
+            type="checkbox"
+            name="language"
+		/><label>JavaScript</label>
+        </div>	
+		<div class="form-range">
+				<input
+            class="password"
+            type="range"
+            name="learningProgress"
+		/>
+        </div>	
+		<div class="form-framework">
+		<input
+            class="password"
+            type="select"
+            name="learningProgress"
+		/>
+        </div>		
+		<div class="form-search">
+		<input
+            class="password"
+            type="search"
+            name="search"
+			placeholder="Type first letters..."
+		/>
+        </div>	
+		<div class="form-time">
+		<input
+            type="time"
+            name="lunchEnd"
+			placeholder="14:01"
+		/>
+        </div>			
+		<div class="form-url">
+		<input
+            type="url"
+            name="website"
+			placeholder="https://website.com"
+		/>
+        </div>		
+		<div class="form-week">
+		<input
+            type="week"
+            name="birthWeek"
+			placeholder="2021-W51"
+		/>
+        </div>		
+        <button type="submit">Save</button>
+      </form>
   </body>
 </html>
