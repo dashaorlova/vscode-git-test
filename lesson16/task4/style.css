@@ -36,6 +36,7 @@ input {
   color: #808080;
   padding: 4px;
   outline: none;
+  border: 1px solid black;
 }
 .form-label{
 	display:inline-block;
@@ -47,7 +48,6 @@ input {
   margin-top: 16px;
   color: white;
   height: 32px;
-  border: none;
 }
 
 .form-input:invalid {
