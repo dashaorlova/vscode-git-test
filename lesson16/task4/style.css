@@ -36,7 +36,7 @@ input {
   padding: 4px;
   outline: none;
   border: 1px solid #808080;
- padding-top:8px;
+ margin-top:8px;
 }
 .form-label{
 	display:inline-block;
