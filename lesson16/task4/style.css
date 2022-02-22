@@ -36,11 +36,9 @@ input {
   padding: 4px;
   outline: none;
   border: 1px solid #808080;
+  margin-bottom:8px;
+}
 
-}
-.form-input{
-	padding-top:8px;
-}
 .form-label{
 	display:inline-block;
 	margin: 0px 0 4px 0;
@@ -57,4 +55,3 @@ input {
 .form-input:invalid {
   border: #ff0000 solid 3px;
 }
-
