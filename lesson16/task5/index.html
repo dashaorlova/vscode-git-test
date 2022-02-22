@@ -2,48 +2,116 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Специфичность</title>
+    <title>Forms</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
+
     <link href="style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <div class="image-conteiner">
-      <img
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
-        alt="tree"
-      />
-    </div>
-    <div class="gallery">
-      <figure class="card">
-        <img
-          class="cardone"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="ocen"
+    <form class="login-form">
+      <div class="form-control">
+        <input type="text" name="primaryLanguage" value="HTML" disabled />
+      </div>
+      <div class="form-checkbox">
+        <input type="checkbox" name="agree" readonly />
+      </div>
+      <div class="form-like">
+        <input type="checkbox" name="like" checked />
+      </div>
+      <div class="form-color">
+        <input type="color" name="favouriteColor" value="#ff7f50" />
+      </div>
+      <div class="form-date">
+        <input type="date" name="birthDate" value="2021-01-02" />
+      </div>
+      <div class="form-datetime">
+        <input
+          type="datetime-local"
+          name="birthTime"
+          value="2024-10-04T13:02"
         />
-        <figcaption>opacity</figcaption>
-      </figure>
-      <figure class="card">
-        <img
-          class="cardtwo"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="ocen"
+      </div>
+      <div class="form-email">
+        <input
+          type="email"
+          name="email"
+          placeholder="example@domain.com"
+          required
         />
-        <figcaption>blue</figcaption>
-      </figure>
-      <figure class="card">
-        <img
-          class="cardtrhee"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="ocen"
+      </div>
+      <div class="form-file">
+        <input type="file" name="avatar" />
+      </div>
+      <div class="form-mounth">
+        <input type="month" name="startLearning" value="2020-01" />
+      </div>
+      <div class="form-number">
+        <input type="number" name="favouriteNumber" value="17" />
+      </div>
+      <div class="form-number">
+        <textarea
+          name="story"
+          rows="5"
+          cols="30"
+          placeholder="A long time ago..."
+        ></textarea>
+      </div>
+      <div class="form-password">
+        <input type="password" name="password" value="secret" />
+      </div>
+      <div class="languages">
+        <input type="radio" name="language" id="html" value="html" />
+        <label for="html">HTML</label>
+        <input type="radio" name="language" id="css" value="css" checked />
+        <label for="css">CSS</label>
+        <input
+          type="radio"
+          name="language"
+          id="javascript"
+          value="javascript"
         />
-        <figcaption>invert</figcaption>
-      </figure>
-    </div>
+        <label for="javascript">JavaScript</label>
+      </div>
+      <div class="form-range">
+        <input type="range" name="learningProgress" value="30" />
+      </div>
+      <div class="form-framework">
+        <select name="framework">
+          <option value="react">React</option>
+          <option value="jquery" selected>jQuery</option>
+          <option value="bootstrap">Bootstrap</option>
+        </select>
+      </div>
+      <div class="form-search">
+        <input
+          type="search"
+          name="search"
+          placeholder="Type first letters..."
+        />
+      </div>
+      <div class="form-time">
+        <input type="time" name="lunchEnd" value="14:01" />
+      </div>
+      <div class="form-url">
+        <input
+          type="url"
+          name="website"
+          placeholder="https://website.com"
+          required
+        />
+      </div>
+      <div class="form-week">
+        <input type="week" name="birthWeek" value="2021-W51" />
+      </div>
+      <div>
+        <button type="submit">Save</button>
+      </div>
+    </form>
   </body>
 </html>
