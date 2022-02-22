@@ -6,7 +6,7 @@
 margin:32px;
 
 }
-input,button {
+input,button,textarea,select {
   margin: 8px;
   }
 
