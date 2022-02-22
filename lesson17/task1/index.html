@@ -13,49 +13,40 @@
   </head>
 
   <body>
-    <form>
-      <div>
-        <input type="text" name="lastName" value="Emerson" />
-      </div>
-      <div>
-        <input type="number" name="age" value="17" />
-      </div>
-      <div>
-        <input
-          id="last-name"
-          type="checkbox"
-          name="agree"
-          value="Accept terms and conditions"
-        />
-        <label for="last-name">Accept terms and conditions</label>
-      </div>
-      <div class="choose-gender">
-        <input id="male" type="radio" name="gender" value="male" checked />
-        <label for="male">Male</label>
-
-        <input
-          id="gendar-femail"
-          type="radio"
-          name="gender"
-          value="gendar-femail"
-        />
-        <label for="gendar-femail">Female</label>
-
-        <input
-          id="gendar-secret"
-          type="radio"
-          name="gender"
-          value="gendar-secret"
-        />
-        <label for="gendar-secret">Secret</label>
-      </div>
-      <div>
-        <textarea
-          name="description"
-          placeholder="Write description..."
-        ></textarea>
-      </div>
-      <div><button type="submit">Submit</button></div>
-    </form>
+    <table>
+      <caption>Shopping list</caption>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Amount</th>
+          <th>Price</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Milk</td>
+          <td>3</td>
+          <td>$2</td>
+          <td>$6</td>
+        </tr>
+        <tr>
+          <td>Bread</td>
+          <td>4</td>
+          <td>$1</td>
+          <td>$4</td>
+        </tr>
+        <tr>
+          <td>Meat</td>
+          <td>5</td>
+          <td>$10</td>
+          <td>$50</td>
+        </tr>
+        <tfoot>
+          <td colspan="3">Total</td>
+          <td>$60</td>
+        </tfoot>
+      </tbody>
+    </table>
   </body>
 </html>
