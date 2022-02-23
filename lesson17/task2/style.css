@@ -1,19 +1,20 @@
 * {
   box-sizing: border-box;
 }
+table{
+  margin: 16px;
+  width: 500px;
+}
 table,
 td,
 th {
   border: 1px solid black;
   border-collapse: collapse;
-  width: 500px;
-  margin: 16px;
 }
 td,
 th {
   padding: 4px;
   text-align: right;
-  height: 40px;
 }
 div {
   overflow-x: auto;
