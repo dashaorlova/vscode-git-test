@@ -15,13 +15,18 @@ td {
 tbody td {
   border: 1px solid black;
 }
+
 tbody .color_odd>td:nth-child(odd){
 	background-color:black;
 }
 tbody .color_even>td:nth-child(even){
 	background-color:black;
 }
-.anexception{
+tbody tr>td:first-child{
+	border:none!important;
+	background-color:white!important;
+}
+tbody tr>td:last-child{
 	border:none!important;
 	background-color:white!important;
 }
