@@ -10,6 +10,7 @@ td,
 th {
   border: 1px solid black;
   border-collapse: collapse;
+  height:40px;
 }
 td,
 th {
