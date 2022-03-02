@@ -25,7 +25,7 @@ table tr:not(:first-child, :last-child):nth-child(2n+1) > td:nth-child(even) {
 
 }
 table,
-tr:not(:first-child, :last-child), td:not(:first-child, :last-child){
+tr:not(:first-child, :last-child) td:not(:first-child, :last-child){
 	border: 1px solid black;
 	border-collapse: collapse;
 }
