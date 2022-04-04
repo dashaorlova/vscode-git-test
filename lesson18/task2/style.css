@@ -18,12 +18,8 @@
     margin: 64px;
 }
 
-.buttonfirst:hover .color:hover {
-    color: darkcyan;
-}
-
 .buttonfirst:hover {
-    color: green;
+    color: darkcyan;
 }
 
 .icons {
@@ -35,9 +31,4 @@
 
 .buttonfirst:hover>.icons {
     fill: green;
-}
-
-.colum {
-    margin: 64px;
-    display: flex;
 }
