@@ -18,6 +18,10 @@
     margin: 64px;
 }
 
+.buttonfirst:hover .color:hover {
+    color: darkcyan;
+}
+
 .buttonfirst:hover {
     color: green;
 }
