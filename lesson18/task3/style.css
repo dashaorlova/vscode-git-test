@@ -1,26 +1,28 @@
+* {
+    box-sizing: border-box;
+}
 
+div i:nth-child(1) {
+    font-size: 18px;
+}
 
-input[type='checkbox'] {
-  visibility: hidden;
-  width: 0;
-  height: 0;
+div i:nth-child(2) {
+    font-size: 36px;
 }
-.checkbox {
-  padding-left: 35px;
-  font-size: 24px;
-  position: relative;
-  display: inline-block;
-  margin: 16px;
+
+div i:nth-child(3) {
+    font-size: 64px;
 }
-.checkmark {
-  width: 25px;
-  height: 25px;
-  background-color: #d3d3d3;
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
+
+div i:nth-child(4) {
+    font-size: 128px;
 }
-.checkbox input:checked + .checkmark {
-  background-color: #006400;
+
+div i:nth-child(5) {
+    font-size: 256px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
 }
