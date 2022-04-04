@@ -26,9 +26,10 @@
     width: 32px;
     height: 32px;
     vertical-align: middle;
+    fill: white;
 }
 
-.icons:hover {
+.buttonfirst:hover>.icons {
     fill: green;
 }
 
