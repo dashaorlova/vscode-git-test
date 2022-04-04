@@ -1,24 +1,28 @@
 * {
-  box-sizing: border-box;
-}
-body {
-  font-family: Verdana;
+    box-sizing: border-box;
 }
 
-h1 {
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 50vw;
-  margin: 0 auto;
-  text-overflow: ellipsis;
-  font-size: 74px;
+body i:nth-child(1) {
+    font-size: 18px;
 }
-div {
-  height: 200px;
-  background-color: coral;
-  color: white;
-  text-align: center;
-  line-height: 200px;
-  text-transform: uppercase;
+
+body i:nth-child(2) {
+    font-size: 36px;
+}
+
+body i:nth-child(3) {
+    font-size: 64px;
+}
+
+body i:nth-child(4) {
+    font-size: 128px;
+}
+
+body i:nth-child(5) {
+    font-size: 256px;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
 }
